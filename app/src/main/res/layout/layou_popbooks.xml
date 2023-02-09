@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="324dp"
+    android:layout_height="200dp"
+    android:background="@drawable/rectangle_5"
+    android:weightSum="2">
+
+    <ImageView
+        android:id="@+id/pbookImage"
+        android:layout_width="114dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.2"
+        android:src="@drawable/books" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1.8"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/pbookName"
+            android:layout_width="176dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="General Knowledge Basket"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pbookAuthor"
+            android:layout_width="54dp"
+            android:layout_height="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/a_b_ram"
+            android:textColor="#303030"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/pdesc"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+            android:textColor="#303030"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
